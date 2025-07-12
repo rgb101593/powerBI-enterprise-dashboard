@@ -24,7 +24,7 @@ You will find end-to-end implementation including data ingestion, transformation
 | -------------------- | ---------------------------------------------------------------------------------------- |
 | **Data Integration** | SQL Server (Docker), CSV/Excel, REST API (OpenWeatherMap)                                |
 | **Visualization**    | Power BI Desktop report with interactive maps, line charts, matrices, and scatter plots  |
-| **Analytics**        | Custom DAX measures (Total Sales, Profit Margin, Inventory Turnover, Extreme Heat Sales) |
+| **Analytics**        | Custom DAX measures |
 | **Security**         | Local Role-Level Security (RLS) simulation via bookmarks and slicers for Qatar regions   |
 | **Validation**       | Automated reconciliation reports comparing actual vs. target sales                       |
 | **Documentation**    | Architecture diagrams, SOPs, and setup guides tailored for Qatar stakeholders            |
