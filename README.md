@@ -46,8 +46,7 @@ powerbi-enterprise-dashboard/
 ├── docker/
 │   └── docker-compose.yml      # SQL Server setup
 ├── docs/
-│   ├── architecture.drawio     # ETL & dashboard flow diagram
-│   └── sop.md                  # Standard Operating Procedures
+│   ├── rls.md                  # RLS 
 ├── WeatherData.m               # Script to fetch & prepare weather data
 ├── SalesDashboard.pbix         # Power BI Desktop report file
 └── README.md                   # Project documentation
