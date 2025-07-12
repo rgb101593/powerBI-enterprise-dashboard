@@ -27,7 +27,7 @@ You will find end-to-end implementation including data ingestion, transformation
 | **Analytics**        | Custom DAX measures |
 | **Security**         | Local Role-Level Security (RLS) simulation via bookmarks and slicers for Qatar regions   |
 | **Validation**       | Automated reconciliation reports comparing actual vs. target sales                       |
-| **Documentation**    | Architecture diagrams, SOPs, and setup guides tailored for Qatar stakeholders            |
+
 
 ## 🗂️ Project Structure
 
@@ -106,14 +106,6 @@ powerbi-enterprise-dashboard/
 * **Matrix**: Region-wise sales vs. targets
 * **Scatter Plot**: Extreme heat (≥ 40°C) vs. sales performance
 
-### DAX Measures
-
-```DAX
-Total Sales = SUM(Sales[Amount])
-Profit Margin = DIVIDE(SUM(Sales[Amount]) - SUM(Sales[Cost]), SUM(Sales[Amount]))
-Inventory Turnover = DIVIDE(SUM(Sales[Amount]), AVERAGE(Inventory[Level]))
-Extreme Heat Sales = CALCULATE([Total Sales], FILTER(Weather, Weather[Temp] >= 40))
-```
 
 ## 📝 Documentation
 
@@ -125,27 +117,7 @@ Extreme Heat Sales = CALCULATE([Total Sales], FILTER(Weather, Weather[Temp] >= 4
   * API key rotation
   * RLS role maintenance
 
-## 🤝 Contribution
 
-We welcome collaboration! Please follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch:
-
-   ```bash
-   git checkout -b feature/your-new-feature
-   ```
-3. **Commit** your changes:
-
-   ```bash
-   git commit -m "Add awesome new feature"
-   ```
-4. **Push** to GitHub:
-
-   ```bash
-   git push origin feature/your-new-feature
-   ```
-5. **Open** a Pull Request and describe your enhancements
 
 ## 📄 License
 
