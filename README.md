@@ -48,7 +48,7 @@ powerbi-enterprise-dashboard/
 ├── docs/
 │   ├── architecture.drawio     # ETL & dashboard flow diagram
 │   └── sop.md                  # Standard Operating Procedures
-├── generate_weather_json.py    # Script to fetch & prepare weather data
+├── WeatherData.m               # Script to fetch & prepare weather data
 ├── SalesDashboard.pbix         # Power BI Desktop report file
 └── README.md                   # Project documentation
 ```
